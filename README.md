@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# GATE Blockchain Smart Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project has all smart contracts used in GATE blockchain course.
 
-Try running some of the following tasks:
+Try running commands as shown in module videos.
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat compile (to compile all contracts)
+npx hardhat test (to test contracts)
+npx hardhat node (to run a local blockchain node)
+npx hardhat --network Sepolia run scripts/deploy.js (to deploy contracts to given network)
 ```
